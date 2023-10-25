@@ -1,0 +1,29 @@
+@keyframes slide-in-left {
+    from{transform: translateX(-300px);}
+    to{transform:translateX(200px);}
+}
+
+h1{
+    animation-name: slide-in-left;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transform: translateX(200px);
+
+    /* short hand */
+    /* animation: slide-in-left 3s linear 2s 1 forwards;  */
+      /* short hand */
+
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+
+div:hover{
+    background-color: blueviolet;
+}
